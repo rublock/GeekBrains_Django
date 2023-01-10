@@ -21,6 +21,7 @@ class News(models.Model):
     def __str__(self) -> str:
         return f"{self.pk} {self.title}"
 
+    """чтобы не удалять объект, а пометить его удаленным"""
     def delete(self, *args):
         self.deleted = True
         self.save()
@@ -60,6 +61,7 @@ class Lesson(models.Model):
         self.deleted = True
         self.save()
 
+    """сортировка"""
     class Meta:
         ordering = ("course", "num")
 
