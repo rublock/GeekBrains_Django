@@ -1,30 +1,28 @@
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class News(models.Model):
-    """модели базы данных Новостей"""
     title = models.CharField(max_length=256, verbose_name="Title")
     preambule = models.CharField(max_length=1024, verbose_name="Preambule")
     body = models.TextField(blank=True, null=True, verbose_name="Body")
-    body_as_markdown = models.BooleanField(
-        default=False, verbose_name="As markdown"
-    )
-    created = models.DateTimeField(
-        auto_now_add=True, verbose_name="Created", editable=False
-    )
-    updated = models.DateTimeField(
-        auto_now=True, verbose_name="Edited", editable=False
-    )
+    body_as_markdown = models.BooleanField(default=False, verbose_name="As markdown")
+    created = models.DateTimeField(auto_now_add=True, verbose_name="Created", editable=False)
+    updated = models.DateTimeField(auto_now=True, verbose_name="Edited", editable=False)
     deleted = models.BooleanField(default=False)
 
-    """"определяем как будет выводиться в консоль описание объекта"""
     def __str__(self) -> str:
         return f"{self.pk} {self.title}"
 
-    """чтобы не удалять объект, а пометить его удаленным"""
     def delete(self, *args):
         self.deleted = True
         self.save()
+
+    class Meta:
+        verbose_name = _("News")
+        verbose_name_plural = _("News")
+        ordering = ("-created",)
+
 
 class CoursesManager(models.Manager):
     def get_queryset(self):
@@ -68,9 +66,10 @@ class Lesson(models.Model):
         self.deleted = True
         self.save()
 
-    """сортировка"""
     class Meta:
         ordering = ("course", "num")
+        verbose_name = _("Lesson")
+        verbose_name_plural = _("Lessons")
 
 
 class CourseTeachers(models.Model):
@@ -86,3 +85,7 @@ class CourseTeachers(models.Model):
     def delete(self, *args):
         self.deleted = True
         self.save()
+
+    class Meta:
+        verbose_name = _("Teacher")
+        verbose_name_plural = _("Teachers")
