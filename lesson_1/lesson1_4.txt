@@ -1,1 +1,0 @@
-http://server/page1/file1/action?param1=100&param2=1000#id
