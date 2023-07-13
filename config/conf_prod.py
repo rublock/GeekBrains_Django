@@ -9,9 +9,9 @@ DEBUG = False
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "braniac",
+        "NAME": "django",
         "USER": "django",
-        "PASSWORD": "geekbrains",
+        "PASSWORD": "1234",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }
