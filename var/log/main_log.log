@@ -1,0 +1,193 @@
+[2023-07-13 08:49:41,826] INFO django.utils.autoreload (637) Watching for file changes with StatReloader
+[2023-07-13 08:49:57,554] INFO django.server (161) "GET / HTTP/1.1" 302 0
+[2023-07-13 08:49:57,637] INFO django.server (161) "GET /mainapp/ HTTP/1.1" 200 22069
+[2023-07-13 08:49:57,765] INFO django.server (161) "GET /static/css/Chart.min.css HTTP/1.1" 304 0
+[2023-07-13 08:49:57,766] INFO django.server (161) "GET /static/css/fontawesome.all.min.css HTTP/1.1" 304 0
+[2023-07-13 08:49:57,767] INFO django.server (161) "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2023-07-13 08:49:57,767] INFO django.server (161) "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+[2023-07-13 08:49:58,045] INFO django.server (161) "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[2023-07-13 08:49:58,046] INFO django.server (161) "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 304 0
+[2023-07-13 08:49:58,051] INFO django.server (161) "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2023-07-13 08:49:58,053] INFO django.server (161) "GET /static/js/Chart.min.js HTTP/1.1" 304 0
+[2023-07-13 08:49:58,056] INFO django.server (161) "GET /static/js/fontawesome.all.min.js HTTP/1.1" 304 0
+[2023-07-13 08:49:58,058] INFO django.server (161) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12378
+[2023-07-13 08:49:58,153] INFO django.server (161) "GET /static/img/logo.png HTTP/1.1" 304 0
+[2023-07-13 08:49:58,163] INFO django.server (161) "GET /static/img/slider001.jpg HTTP/1.1" 304 0
+[2023-07-13 08:49:58,166] INFO django.server (161) "GET /static/img/slider002.jpg HTTP/1.1" 304 0
+[2023-07-13 08:49:58,182] INFO django.server (161) "GET /static/img/slider003.jpg HTTP/1.1" 304 0
+[2023-07-13 08:49:58,194] INFO django.server (161) "GET /static/img/user001.png HTTP/1.1" 304 0
+[2023-07-13 08:49:58,205] INFO django.server (161) "GET /static/img/user002.png HTTP/1.1" 304 0
+[2023-07-13 08:49:58,212] INFO django.server (161) "GET /static/img/user003.png HTTP/1.1" 304 0
+[2023-07-13 08:49:58,228] INFO django.server (161) "GET /static/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 0
+[2023-07-13 08:49:58,253] INFO django.server (161) "GET /static/img/promo001.jpg HTTP/1.1" 304 0
+[2023-07-13 08:49:58,339] INFO django.server (161) "GET /static/img/promo002.jpg HTTP/1.1" 304 0
+[2023-07-13 08:49:58,346] INFO django.server (161) "GET /static/img/promo003.jpg HTTP/1.1" 304 0
+[2023-07-13 08:49:58,466] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 08:49:58,472] INFO django.server (161) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2023-07-13 08:49:58,765] INFO django.server (161) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+[2023-07-13 08:49:58,769] INFO django.server (161) "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+[2023-07-13 08:50:01,673] INFO django.server (161) "GET /mainapp/news/ HTTP/1.1" 200 21295
+[2023-07-13 08:50:02,101] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 08:50:03,837] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 08:50:03,874] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 08:50:04,219] INFO django.server (161) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2023-07-13 08:50:04,230] INFO django.server (161) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2023-07-13 08:50:25,081] INFO django.server (161) "GET /mainapp/ HTTP/1.1" 200 22069
+[2023-07-13 08:50:25,206] INFO django.server (161) "GET /static/css/bootstrap.min.css HTTP/1.1" 200 167943
+[2023-07-13 08:50:25,217] INFO django.server (161) "GET /static/css/Chart.min.css HTTP/1.1" 200 521
+[2023-07-13 08:50:25,219] INFO django.server (161) "GET /static/css/fontawesome.all.min.css HTTP/1.1" 200 59344
+[2023-07-13 08:50:25,221] INFO django.server (161) "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+[2023-07-13 08:50:25,405] INFO django.server (161) "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[2023-07-13 08:50:25,412] INFO django.server (161) "GET /static/js/popper.min.js HTTP/1.1" 200 21233
+[2023-07-13 08:50:25,414] INFO django.server (161) "GET /static/js/bootstrap.min.js HTTP/1.1" 200 63467
+[2023-07-13 08:50:25,415] INFO django.server (161) "GET /static/js/Chart.min.js HTTP/1.1" 200 173077
+[2023-07-13 08:50:25,472] INFO django.server (161) "GET /static/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 76764
+[2023-07-13 08:50:25,489] INFO django.server (161) "GET /static/img/logo.png HTTP/1.1" 200 4016
+[2023-07-13 08:50:25,512] INFO django.server (161) "GET /static/js/fontawesome.all.min.js HTTP/1.1" 200 1195450
+[2023-07-13 08:50:25,520] INFO django.server (161) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12378
+[2023-07-13 08:50:25,679] INFO django.server (161) "GET /static/img/slider001.jpg HTTP/1.1" 200 183079
+[2023-07-13 08:50:25,681] INFO django.server (161) "GET /static/img/user002.png HTTP/1.1" 200 20918
+[2023-07-13 08:50:25,681] INFO django.server (161) "GET /static/img/user001.png HTTP/1.1" 200 24384
+[2023-07-13 08:50:25,702] INFO django.server (161) "GET /static/img/slider002.jpg HTTP/1.1" 200 3087732
+[2023-07-13 08:50:25,710] INFO django.server (161) "GET /static/img/slider003.jpg HTTP/1.1" 200 2863995
+[2023-07-13 08:50:25,787] INFO django.server (161) "GET /static/img/promo002.jpg HTTP/1.1" 200 54342
+[2023-07-13 08:50:25,788] INFO django.server (161) "GET /static/img/user003.png HTTP/1.1" 200 23170
+[2023-07-13 08:50:25,789] INFO django.server (161) "GET /static/img/promo001.jpg HTTP/1.1" 200 69037
+[2023-07-13 08:50:25,798] INFO django.server (161) "GET /static/img/promo003.jpg HTTP/1.1" 200 69825
+[2023-07-13 08:50:25,888] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 08:50:26,321] INFO django.server (161) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+[2023-07-13 08:50:26,330] INFO django.server (161) "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+[2023-07-13 08:50:26,636] WARNING django.request (224) Not Found: /favicon.ico
+[2023-07-13 08:50:26,639] WARNING django.server (161) "GET /favicon.ico HTTP/1.1" 404 13781
+[2023-07-13 08:50:28,963] INFO django.server (161) "GET /mainapp/news/ HTTP/1.1" 200 21293
+[2023-07-13 08:50:29,370] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 08:50:55,653] ERROR django.request (224) Internal Server Error: /mainapp/courses/
+Traceback (most recent call last):
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/cache.py", line 98, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/client/default.py", line 260, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 122, in _wrapped_view
+    result = middleware.process_request(request)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django/middleware/cache.py", line 145, in process_request
+    cache_key = get_cache_key(request, self.key_prefix, 'GET', cache=self.cache)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django/utils/cache.py", line 362, in get_cache_key
+    headerlist = cache.get(cache_key)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/cache.py", line 91, in get
+    value = self._get(key, default, version, client)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/client/default.py", line 258, in get
+    value = client.get(key)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/redis/commands/core.py", line 1790, in get
+    return self.execute_command("GET", name)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/redis/client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/redis/connection.py", line 1427, in get_connection
+    connection.connect()
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/redis/connection.py", line 630, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+[2023-07-13 08:50:55,689] ERROR django.server (161) "GET /mainapp/courses/ HTTP/1.1" 500 136835
+[2023-07-13 08:50:55,920] INFO django.server (161) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2023-07-13 08:50:55,920] INFO django.server (161) "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2023-07-13 08:50:55,968] INFO django.server (161) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2023-07-13 08:50:56,039] INFO django.server (161) "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+[2023-07-13 08:50:57,220] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 08:50:57,302] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 08:50:57,933] INFO django.server (161) "GET /mainapp/ HTTP/1.1" 200 22069
+[2023-07-13 08:50:58,347] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:04,766] INFO django.utils.autoreload (637) Watching for file changes with StatReloader
+[2023-07-13 09:18:12,883] INFO django.server (161) "GET /mainapp/ HTTP/1.1" 200 22071
+[2023-07-13 09:18:13,014] INFO django.server (161) "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2023-07-13 09:18:13,021] INFO django.server (161) "GET /static/css/Chart.min.css HTTP/1.1" 304 0
+[2023-07-13 09:18:13,025] INFO django.server (161) "GET /static/css/fontawesome.all.min.css HTTP/1.1" 304 0
+[2023-07-13 09:18:13,031] INFO django.server (161) "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2023-07-13 09:18:13,323] INFO django.server (161) "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 304 0
+[2023-07-13 09:18:13,324] INFO django.server (161) "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[2023-07-13 09:18:13,326] INFO django.server (161) "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2023-07-13 09:18:13,345] INFO django.server (161) "GET /static/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 0
+[2023-07-13 09:18:13,348] INFO django.server (161) "GET /static/js/Chart.min.js HTTP/1.1" 304 0
+[2023-07-13 09:18:13,351] INFO django.server (161) "GET /static/js/fontawesome.all.min.js HTTP/1.1" 304 0
+[2023-07-13 09:18:13,373] INFO django.server (161) "GET /static/img/slider001.jpg HTTP/1.1" 304 0
+[2023-07-13 09:18:13,374] INFO django.server (161) "GET /static/img/logo.png HTTP/1.1" 304 0
+[2023-07-13 09:18:13,377] INFO django.server (161) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2023-07-13 09:18:13,445] INFO django.server (161) "GET /static/img/slider002.jpg HTTP/1.1" 304 0
+[2023-07-13 09:18:13,454] INFO django.server (161) "GET /static/img/slider003.jpg HTTP/1.1" 304 0
+[2023-07-13 09:18:13,468] INFO django.server (161) "GET /static/img/user001.png HTTP/1.1" 304 0
+[2023-07-13 09:18:13,483] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:13,499] INFO django.server (161) "GET /static/img/user003.png HTTP/1.1" 304 0
+[2023-07-13 09:18:13,500] INFO django.server (161) "GET /static/img/user002.png HTTP/1.1" 304 0
+[2023-07-13 09:18:13,509] INFO django.server (161) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 304 0
+[2023-07-13 09:18:13,521] INFO django.server (161) "GET /static/img/promo002.jpg HTTP/1.1" 304 0
+[2023-07-13 09:18:13,522] INFO django.server (161) "GET /static/img/promo001.jpg HTTP/1.1" 304 0
+[2023-07-13 09:18:13,523] INFO django.server (161) "GET /static/img/promo003.jpg HTTP/1.1" 304 0
+[2023-07-13 09:18:13,624] INFO django.server (161) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2023-07-13 09:18:13,648] INFO django.server (161) "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+[2023-07-13 09:18:16,906] INFO django.server (161) "GET /mainapp/news/ HTTP/1.1" 200 21295
+[2023-07-13 09:18:17,307] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:18,624] INFO django.server (161) "GET /mainapp/news/1/detail HTTP/1.1" 200 17831
+[2023-07-13 09:18:19,011] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:30,117] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:32,991] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:33,082] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:37,037] INFO django.server (161) "GET /mainapp/news/1/detail HTTP/1.1" 200 17831
+[2023-07-13 09:18:37,500] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:45,771] INFO django.server (161) "GET /mainapp/ HTTP/1.1" 200 22069
+[2023-07-13 09:18:46,267] INFO django.server (161) "GET /static/img/slider002.jpg HTTP/1.1" 200 3087732
+[2023-07-13 09:18:46,366] INFO django.server (161) "GET /static/img/slider003.jpg HTTP/1.1" 200 2863995
+[2023-07-13 09:18:46,391] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:50,915] ERROR django.request (224) Internal Server Error: /mainapp/courses/
+Traceback (most recent call last):
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/cache.py", line 31, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/cache.py", line 98, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/client/default.py", line 260, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 122, in _wrapped_view
+    result = middleware.process_request(request)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django/middleware/cache.py", line 145, in process_request
+    cache_key = get_cache_key(request, self.key_prefix, 'GET', cache=self.cache)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django/utils/cache.py", line 362, in get_cache_key
+    headerlist = cache.get(cache_key)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/cache.py", line 91, in get
+    value = self._get(key, default, version, client)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/cache.py", line 38, in _decorator
+    raise e.__cause__
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/django_redis/client/default.py", line 258, in get
+    value = client.get(key)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/redis/commands/core.py", line 1790, in get
+    return self.execute_command("GET", name)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/redis/client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/redis/connection.py", line 1427, in get_connection
+    connection.connect()
+  File "/home/mack/Git/GeekBrains_Django/venv/lib/python3.8/site-packages/redis/connection.py", line 630, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+[2023-07-13 09:18:50,946] ERROR django.server (161) "GET /mainapp/courses/ HTTP/1.1" 500 136829
+[2023-07-13 09:18:55,595] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:55,705] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2023-07-13 09:18:57,006] INFO django.server (161) "GET /mainapp/news/ HTTP/1.1" 200 21293
+[2023-07-13 09:18:57,405] WARNING django.server (161) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
