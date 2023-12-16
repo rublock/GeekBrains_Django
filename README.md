@@ -2,9 +2,10 @@
 
 ## Stack
 
-- Python 3.8.10
+- Python 3
     - isort, black, autoflake
     - Django 4
     - Celery[Redis]
--VSCode
+    - Python Social Auth
+    - Selenium, locust
 -PostgreSQL 14
