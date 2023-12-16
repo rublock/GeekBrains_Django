@@ -1,6 +1,6 @@
 # Learning managemet system
 
-## Стек
+## Stack
 
 - Python 3.8.10
     - isort, black, autoflake
